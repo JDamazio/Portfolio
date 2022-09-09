@@ -1,0 +1,45 @@
+.typeW
+{
+    position: relative;
+    max-width: 100rem;
+}
+
+.typeW::after,.typeW::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.typeW::before
+{
+    background-color: #0B3754;
+    animation: 
+    typeW 2s steps(11) forwards;
+}
+
+.typeW::after
+{
+    width: .03em;
+    background-color: white;
+    animation: 
+    typeW 2s steps(11) forwards,
+    blink 1s infinite;
+}
+
+    @keyframes typeW{
+        to{
+            left: 100%;
+        }
+    }
+    
+    @keyframes blink{
+    
+        to{
+            background: transparent;
+        }
+    }
+    

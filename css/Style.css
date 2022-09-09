@@ -1,0 +1,17 @@
+
+
+
+/* ============= GLOBAL ============= */
+@import "./Global.css";
+
+/*============= BODY =============*/
+@import "./Header.css";
+@import "./Perfil.css";
+@import "./SobreMim.css";
+
+/*============= ANIMATION =============*/
+@import "./Animation.css";
+
+/*============= UTILS =============*/
+@import "./Cores.css"
+
